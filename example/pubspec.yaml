@@ -9,6 +9,10 @@ description: Demonstrates how to use the wifi plugin.
 # Read more about versioning at semver.org.
 version: 1.0.0+1
 
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+  flutter: ">=3.3.4 <4.0.0"
+
 dependencies:
   flutter:
     sdk: flutter
@@ -31,6 +35,6 @@ dev_dependencies:
 flutter:
   uses-material-design: true
   assets:
-        - images/wifi1.png
-        - images/wifi2.png
-        - images/wifi3.png
+    - images/wifi1.png
+    - images/wifi2.png
+    - images/wifi3.png
